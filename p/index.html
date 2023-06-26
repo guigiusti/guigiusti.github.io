@@ -17,7 +17,7 @@
     const queryString = window.location.search;
     const urlParams = new URLSearchParams(queryString);
     if (urlParams.get('texto')) {
-        fetch('/guigiusti.github.io/textos/'+ urlParams.get('texto') + '.md')
+        fetch('/guigiusti.github.io/.textos/'+ urlParams.get('texto') + '.md')
       .then(r=>r.blob()).then(b=>b.text()).then(m=>{document.getElementById("txt").innerHTML=marked.parse(m)});
     }
     const queryString2 = window.location.search;
