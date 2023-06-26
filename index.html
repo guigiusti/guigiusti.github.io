@@ -13,7 +13,7 @@
 <script>
     const queryString = window.location.search;
     const urlParams = new URLSearchParams(queryString);
-  fetch('/rpiprojects/'+ urlParams.get('p') + '.md')
+  fetch('/guigiusti.github.io/'+ urlParams.get('p') + '.md')
       .then(r=>r.blob()).then(b=>b.text()).then(m=>{document.getElementById("txt").innerHTML=marked.parse(m)})
 </script>
     </body>
