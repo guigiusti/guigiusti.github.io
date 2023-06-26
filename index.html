@@ -20,7 +20,7 @@
         <div id="txt"></div>
         <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
         <script>
-            fetch('/guigiusti.github.io/css/home.md')
+            fetch('/guigiusti.github.io/textosbase/home-index.md')
               .then(r=>r.blob()).then(b=>b.text()).then(m=>{document.getElementById("txt").innerHTML=marked.parse(m)});
         </script>
     </body>
