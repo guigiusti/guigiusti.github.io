@@ -22,9 +22,7 @@
     }
     const queryString2 = window.location.search;
     const urlParams2 = new URLSearchParams(queryString2); 
-    if (!urlParams2.get('page')) {}
-    else if (!urlParams.get('texto')) {}
-    else {window.location.href = 'http://portfolio.guilhermegiusti.com';}
+    if (!urlParams2.get('page')) {if (!urlParams.get('texto')) {window.location.href = 'http://portfolio.guilhermegiusti.com';}}
     const urlContainParams = window.location.search.length === 0;
     if (urlContainParams) window.location.href = 'http://portfolio.guilhermegiusti.com';
 </script>
