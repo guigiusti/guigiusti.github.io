@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Titulo!</title>
+        <title>Meu Blog!</title>
+        <link rel="icon" type="image/png" href="/guigiusti.github.io/favicon.png"/>
         <meta lang="pt-br" charset="utf-8">
     <link href="mdstyle.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,11 +11,9 @@
         <div id="txt"></div>
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 <script>
-    const urlContainParams = window.location.search.length === 0;
-    if (urlContainParams) window.location.href = 'http://portfolio.guilhermegiusti.com';
     const queryString = window.location.search;
     const urlParams = new URLSearchParams(queryString);
-  fetch('/guigiusti.github.io' + urlParams.get('page') + '.md')
+  fetch('/guigiusti.github.io/'+ urlParams.get('p') + '.md')
       .then(r=>r.blob()).then(b=>b.text()).then(m=>{document.getElementById("txt").innerHTML=marked.parse(m)})
 </script>
     </body>
