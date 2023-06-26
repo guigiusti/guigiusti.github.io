@@ -1,5 +1,5 @@
 @media (min-width: 900px) {
-body {
+#txt {
     background-color: white;
     text-align: justify;
     font-family: 'Courier New', Courier, monospace;
@@ -27,7 +27,7 @@ p {
 }
 }
 @media (max-width: 899px) {
-    body {
+    #txt {
         background-color: white;
         text-align: justify;
         font-family: 'Courier New', Courier, monospace;
@@ -55,7 +55,7 @@ p {
     }
     }
 @media (max-width: 400px) {
-    body {
+    #txt {
         background-color: white;
         text-align: justify;
         font-family: 'Courier New', Courier, monospace;
