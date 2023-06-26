@@ -1,7 +1,7 @@
 .header_menu{
     background-color: black;
-    height: 100px;
-    padding: 10px;
+    height: 50%;
+    padding: 1%;
     text-align: center;
 }
 .menu {
@@ -9,14 +9,25 @@
     display: inline;
     text-align: center;
     vertical-align: middle;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .menu_button {
+    display: flex;
+    flex-wrap: wrap;
     list-style-type: none;
     display: inline;
     text-align: center;
-    background-color: white;
-    font-size: 75px;
+    font-size: 450%;
     vertical-align: middle;
     margin: auto;
 }
+
+a:link { text-decoration: none; color: white;}
+
+a:visited { text-decoration: none; color: white;}
+
+a:hover { text-decoration: none; color: white;}
+
+a:active { text-decoration: none; color: gray;}
