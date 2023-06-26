@@ -1,5 +1,5 @@
 .header_menu{
-    background-color: blue;
+    background-color: black;
     height: 100px;
     padding: 10px;
     text-align: center;
@@ -11,7 +11,7 @@
     vertical-align: middle;
 }
 
-.button {
+.menu_button {
     list-style-type: none;
     display: inline;
     text-align: center;
@@ -20,23 +20,3 @@
     vertical-align: middle;
     margin: auto;
 }
-h1 {
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 250%;
-}
-article{
-    text-align: justify;
-    padding: 5%;
-    text-decoration-line: none;
-    line-break: strict;
-    text-indent: 4%;
-    
-}
-p {
-    line-height: 150%;
-    font-size: 150%;
-    margin-bottom: 1%;
-    margin-top: 0%;
-}
-
