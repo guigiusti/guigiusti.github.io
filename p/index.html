@@ -5,12 +5,22 @@
         <link rel="icon" type="image/png" href="/guigiusti.github.io/favicon.png"/>
         <meta lang="pt-br" charset="utf-8">
     <link href="/guigiusti.github.io/css/mdstyle.css" rel="stylesheet">
+    <link href="/guigiusti.github.io/css/indexstyle.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <noscript>
         <meta http-equiv="refresh" content="0; url=http://guilhermegiusti.com/p/noscript.html" />
       </noscript>
     </head>
     <body>
+        <div id="nav-placeholder">
+        </div>
+        <script src="//code.jquery.com/jquery.min.js"></script>
+        <script>
+        $.get("/guigiusti.github.io/css/nav.html", function(data){
+            $("#nav-placeholder").replaceWith(data);
+        });
+        </script>
+        <div id="txt"></div>
         <div id="txt"></div>
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 <script>
