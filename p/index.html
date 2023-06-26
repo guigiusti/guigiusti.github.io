@@ -26,17 +26,17 @@
 <script>
     const queryString = window.location.search;
     const urlParams = new URLSearchParams(queryString);
-    if (urlParams.get('texto')) {
-        fetch('/guigiusti.github.io/textos/'+ urlParams.get('texto') + '.md')
+    if (urlParams.get('t')) {
+        fetch('/guigiusti.github.io/textos/'+ urlParams.get('t') + '.md')
       .then(r=>r.blob()).then(b=>b.text()).then(m=>{document.getElementById("txt").innerHTML=marked.parse(m)});
     }
     const queryString2 = window.location.search;
     const urlParams2 = new URLSearchParams(queryString2);
-    if (urlParams2.get('page')) {
-    location.href = 'http://guilhermegiusti.com/p/' +  urlParams2.get('page');} 
-    if (!urlParams2.get('page')) {if (!urlParams.get('texto')) {window.location.href = 'http://portfolio.guilhermegiusti.com';}}
+    if (urlParams2.get('p')) {
+    location.href = 'https://guilhermegiusti.com/p/' +  urlParams2.get('page');} 
+    if (!urlParams2.get('p')) {if (!urlParams.get('t')) {window.location.href = 'https://guilhermegiusti.com';}}
     const urlContainParams = window.location.search.length === 0;
-    if (urlContainParams) window.location.href = 'http://portfolio.guilhermegiusti.com';
+    if (urlContainParams) window.location.href = 'https://guilhermegiusti.com';
 </script>
     </body>
 </html>
