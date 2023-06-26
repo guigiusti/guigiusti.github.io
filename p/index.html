@@ -21,7 +21,9 @@
       .then(r=>r.blob()).then(b=>b.text()).then(m=>{document.getElementById("txt").innerHTML=marked.parse(m)});
     }
     const queryString2 = window.location.search;
-    const urlParams2 = new URLSearchParams(queryString2); 
+    const urlParams2 = new URLSearchParams(queryString2);
+    if (urlParams2.get('page')) {
+    location.href = 'http://guilhermegiusti.com/p/' +  urlParams2.get('page');} 
     if (!urlParams2.get('page')) {if (!urlParams.get('texto')) {window.location.href = 'http://portfolio.guilhermegiusti.com';}}
     const urlContainParams = window.location.search.length === 0;
     if (urlContainParams) window.location.href = 'http://portfolio.guilhermegiusti.com';
