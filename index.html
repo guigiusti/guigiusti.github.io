@@ -1,22 +1,20 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Meu Blog 5!</title>
-        <link rel="icon" type="image/png" href="/guigiusti.github.io/favicon.png"/>
+        <title>Titulo!</title>
         <meta lang="pt-br" charset="utf-8">
     <link href="mdstyle.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <noscript>
-        <meta http-equiv="refresh" content="0; url=https://guilhermegiusti.com/" />      
-        <link rel="canonical" href="https://guilhermegiusti.com/" /> 
-        </noscript>
+        <div id="txt"></div>
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 <script>
+    const urlContainParams = window.location.search.length === 0;
+    if (urlContainParams) window.location.href = 'http://portfolio.guilhermegiusti.com';
     const queryString = window.location.search;
     const urlParams = new URLSearchParams(queryString);
-  fetch('/guigiusti.github.io/'+ urlParams.get('p') + '.md')
+  fetch('/guigiusti.github.io' + urlParams.get('page') + '.md')
       .then(r=>r.blob()).then(b=>b.text()).then(m=>{document.getElementById("txt").innerHTML=marked.parse(m)})
 </script>
     </body>
