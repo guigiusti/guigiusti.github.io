@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Meu Blog 4!</title>
+        <title>Meu Blog 5!</title>
         <link rel="icon" type="image/png" href="/guigiusti.github.io/favicon.png"/>
         <meta lang="pt-br" charset="utf-8">
     <link href="mdstyle.css" rel="stylesheet">
@@ -18,8 +18,6 @@
     const urlParams = new URLSearchParams(queryString);
   fetch('/guigiusti.github.io/'+ urlParams.get('p') + '.md')
       .then(r=>r.blob()).then(b=>b.text()).then(m=>{document.getElementById("txt").innerHTML=marked.parse(m)})
-    const urlContainParams = window.location.search.length === 0;
-    if (urlContainParams) window.location.href = 'https://portfolio.guilhermegiusti.com';
 </script>
     </body>
 </html>
