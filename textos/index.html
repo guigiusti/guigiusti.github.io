@@ -30,7 +30,8 @@
             const urlParams2 = new URLSearchParams(queryString2);
             if (urlParams2.get('p')) {
             location.href = 'https://guilhermegiusti.com/p/' +  urlParams2.get('p');} 
-            if (!urlParams2.get('p')) {if (!urlParams.get('t')) {window.location.href = 'https://guilhermegiusti.com/textos';}}
+            if (!urlParams2.get('p')) {if (!urlParams.get('t')) {fetch('/guigiusti.github.io/css/textos.md')
+              .then(r=>r.blob()).then(b=>b.text()).then(m=>{document.getElementById("txt").innerHTML=marked.parse(m)});}}
             const urlContainParams = window.location.search.length === 0;
             if (urlContainParams) {fetch('/guigiusti.github.io/css/textos.md')
               .then(r=>r.blob()).then(b=>b.text()).then(m=>{document.getElementById("txt").innerHTML=marked.parse(m)});};
