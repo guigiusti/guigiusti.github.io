@@ -1,6 +1,6 @@
-@media (min-width: 10cm) {
+@media (min-width: 1025px) {
 #txt {
-    background-color: yellow;
+    background-color: red;
     text-align: justify;
     font-family: 'Courier New', Courier, monospace;
     margin: 5%;
@@ -34,9 +34,9 @@ p {
     overflow: hidden
   }
 }
-@media (max-width: 9cm) and (min-width: 5cm) {
+@media (max-width: 1024px) {
     #txt {
-        background-color: brown;
+        background-color: green;
         text-align: justify;
         font-family: 'Courier New', Courier, monospace;
         margin: 5%;
@@ -70,9 +70,9 @@ p {
         overflow: hidden
       }
     }
-@media (max-width: 4cm) {
+@media (max-width: 768px) {
     #txt {
-        background-color: pink;
+        background-color: blue;
         text-align: justify;
         font-family: 'Courier New', Courier, monospace;
         margin: 5%;
