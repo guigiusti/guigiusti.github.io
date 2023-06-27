@@ -25,7 +25,7 @@ p {
     text-indent: 5%;
     font-size: 160%;
 }
-img {
+.center {
     display: block;
     max-width: 5%;
     max-height: 5%;
@@ -61,7 +61,7 @@ img {
         text-indent: 5%;
         font-size: 140%;
     }
-    img {
+    .center {
         display: block;
         max-width: 5%;
         max-height: 5%;
