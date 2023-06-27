@@ -26,6 +26,13 @@ p {
     font-size: 160%;
 }
 }
+img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 @media (max-width: 899px) {
     #txt {
         background-color: white;
@@ -82,3 +89,10 @@ p {
         font-size: 110%;
     }
     }
+    img {
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+      }
