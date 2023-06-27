@@ -1,6 +1,6 @@
 @media (min-width: 1025px) {
 #txt {
-    background-color: red;
+    background-color: white;
     text-align: justify;
     font-family: 'Courier New', Courier, monospace;
     margin: 5%;
@@ -36,7 +36,7 @@ p {
 }
 @media (max-width: 1024px) {
     #txt {
-        background-color: green;
+        background-color: white;
         text-align: justify;
         font-family: 'Courier New', Courier, monospace;
         margin: 5%;
@@ -63,8 +63,8 @@ p {
     }
     .center {
         display: block;
-        max-width: 63%;
-        max-height: 63%;
+        max-width: 53%;
+        max-height: 53%;
         margin-left: auto;
         margin-right: auto;
         overflow: hidden
@@ -72,7 +72,7 @@ p {
     }
 @media (max-width: 768px) {
     #txt {
-        background-color: blue;
+        background-color: white;
         text-align: justify;
         font-family: 'Courier New', Courier, monospace;
         margin: 5%;
