@@ -34,7 +34,7 @@ p {
     overflow: hidden
   }
 }
-@media (max-width: 9cm) {
+@media (max-width: 9cm) and (min-width: 5cm) {
     #txt {
         background-color: brown;
         text-align: justify;
@@ -70,7 +70,7 @@ p {
         overflow: hidden
       }
     }
-@media (max-width: 6cm) {
+@media (max-width: 4cm) {
     #txt {
         background-color: pink;
         text-align: justify;
