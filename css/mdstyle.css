@@ -27,14 +27,6 @@ p {
 }
 .center {
     display: block;
-    max-width: 5%;
-    max-height: 5%;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: hidden
-  }
-  #txt.center {
-    display: block;
     max-width: 53%;
     max-height: 53%;
     margin-left: auto;
