@@ -36,7 +36,7 @@ p {
 }
 @media (max-width: 899px) {
     #txt {
-        background-color: white;
+        background-color: green;
         text-align: justify;
         font-family: 'Courier New', Courier, monospace;
         margin: 5%;
