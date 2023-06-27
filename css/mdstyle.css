@@ -1,6 +1,6 @@
 @media (min-width: 10cm) {
 #txt {
-    background-color: red;
+    background-color: yellow;
     text-align: justify;
     font-family: 'Courier New', Courier, monospace;
     margin: 5%;
@@ -36,7 +36,7 @@ p {
 }
 @media (max-width: 9cm) {
     #txt {
-        background-color: green;
+        background-color: brown;
         text-align: justify;
         font-family: 'Courier New', Courier, monospace;
         margin: 5%;
@@ -72,7 +72,7 @@ p {
     }
 @media (max-width: 6cm) {
     #txt {
-        background-color: blue;
+        background-color: pink;
         text-align: justify;
         font-family: 'Courier New', Courier, monospace;
         margin: 5%;
