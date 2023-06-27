@@ -1,4 +1,4 @@
-@media (min-width: 900px) {
+@media (min-width: 10cm) {
 #txt {
     background-color: red;
     text-align: justify;
@@ -34,7 +34,7 @@ p {
     overflow: hidden
   }
 }
-@media (max-width: 899px) {
+@media (max-width: 9cm) {
     #txt {
         background-color: green;
         text-align: justify;
@@ -70,7 +70,7 @@ p {
         overflow: hidden
       }
     }
-@media (max-width: 400px) {
+@media (max-width: 6cm) {
     #txt {
         background-color: blue;
         text-align: justify;
