@@ -25,6 +25,10 @@ p {
     text-indent: 5%;
     font-size: 160%;
 }
+h5 {
+    font-size: 100%;
+    text-align: center;
+}
 .center {
     display: block;
     max-width: 53%;
@@ -60,6 +64,10 @@ p {
     p {
         text-indent: 5%;
         font-size: 140%;
+    }
+    h5 {
+        font-size: 100%;
+        text-align: center;
     }
     .center {
         display: block;
