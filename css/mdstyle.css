@@ -84,23 +84,23 @@ p {
         font-size: 180%;
     }
     h2 {
-        font-size: 150%;
+        font-size: 160%;
     }
     h3 {
-        font-size: 120%;
+        font-size: 140%;
     }
     h4 {
-        font-size: 100%;
+        font-size: 110%;
         margin: 3%;
     }
     p {
         text-indent: 5%;
-        font-size: 110%;
+        font-size: 130%;
     }
     .center {
         display: block;
-        max-width: 33%;
-        max-height: 33%;
+        max-width: 53%;
+        max-height: 53%;
         margin-left: auto;
         margin-right: auto;
         overflow: hidden
