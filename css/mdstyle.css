@@ -23,6 +23,7 @@ h4 {
 }
 a, a:visited, a:hover, a:active {
     color: inherit;
+    text-decoration: underline;
   }
 p {
     text-indent: 5%;
@@ -66,6 +67,7 @@ h5 {
     }
     a, a:visited, a:hover, a:active {
         color: inherit;
+        text-decoration: underline;
       }
     p {
         text-indent: 5%;
@@ -113,6 +115,7 @@ h5 {
     }
     a, a:visited, a:hover, a:active {
         color: inherit;
+        text-decoration: underline;
       }
     p {
         text-indent: 5%;
