@@ -25,6 +25,9 @@ a, a:visited, a:hover, a:active {
     color: inherit;
     text-decoration: underline;
   }
+  em {
+    color: black;
+}
 p {
     text-indent: 5%;
     font-size: 160%;
@@ -69,6 +72,9 @@ h5 {
         color: inherit;
         text-decoration: underline;
       }
+      em {
+        color: black;
+    }
     p {
         text-indent: 5%;
         font-size: 140%;
@@ -117,6 +123,9 @@ h5 {
         color: inherit;
         text-decoration: underline;
       }
+    em {
+        color: black;
+    }
     p {
         text-indent: 5%;
         font-size: 130%;
