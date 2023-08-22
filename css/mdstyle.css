@@ -21,6 +21,9 @@ h4 {
     font-size: 150%;
     margin: 3%;
 }
+a {
+    color: black;
+}
 p {
     text-indent: 5%;
     font-size: 160%;
@@ -60,6 +63,9 @@ h5 {
     h4 {
         font-size: 130%;
         margin: 3%;
+    }
+    a {
+        color: black;
     }
     p {
         text-indent: 5%;
@@ -104,6 +110,9 @@ h5 {
     h5 {
         font-size: 100%;
         text-align: center;
+    }
+    a {
+        color: black;
     }
     p {
         text-indent: 5%;
