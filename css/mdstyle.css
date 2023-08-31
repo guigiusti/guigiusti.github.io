@@ -36,6 +36,17 @@ h5 {
     font-size: 100%;
     text-align: center;
 }
+h6 {
+    font-size: 170%;
+    text-align: center;
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
 .center {
     display: block;
     max-width: 53%;
@@ -90,6 +101,17 @@ h5 {
         font-size: 100%;
         text-align: center;
     }
+    h6 {
+        font-size: 170%;
+        text-align: center;
+        display: block;
+        font-size: 1.5em;
+        margin-top: 0.83em;
+        margin-bottom: 0.83em;
+        margin-left: 0;
+        margin-right: 0;
+        font-weight: bold;
+    }
     .center {
         display: block;
         max-width: 63%;
@@ -132,6 +154,17 @@ h5 {
     h5 {
         font-size: 100%;
         text-align: center;
+    }
+    h6 {
+        font-size: 170%;
+        text-align: center;
+        display: block;
+        font-size: 1.5em;
+        margin-top: 0.83em;
+        margin-bottom: 0.83em;
+        margin-left: 0;
+        margin-right: 0;
+        font-weight: bold;
     }
     a, a:visited, a:hover, a:active {
         color: inherit;
