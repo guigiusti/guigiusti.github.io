@@ -22,6 +22,8 @@
         <script>
             fetch('/guigiusti.github.io/textosbase/home-index.md')
               .then(r=>r.blob()).then(b=>b.text()).then(m=>{document.getElementById("txt").innerHTML=marked.parse(m)});
+            
+              window.location.replace("https://guilhermegiusti.com/textos/");
         </script>
     </body>
 </html>
