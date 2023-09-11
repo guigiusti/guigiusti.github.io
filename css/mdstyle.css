@@ -22,7 +22,7 @@ h4 {
     margin: 3%;
 }
 a, a:visited, a:hover, a:active {
-    color: inherit;
+    color: black;
     text-decoration: underline;
   }
   em {
@@ -96,7 +96,7 @@ h6 {
         margin: 3%;
     }
     a, a:visited, a:hover, a:active {
-        color: inherit;
+        color: black;
         text-decoration: underline;
       }
       em {
@@ -190,7 +190,7 @@ h6 {
         font-weight: bold;
     }
     a, a:visited, a:hover, a:active {
-        color: inherit;
+        color: black;
         text-decoration: underline;
       }
     em {
