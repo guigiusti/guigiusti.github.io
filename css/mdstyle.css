@@ -21,7 +21,7 @@ h4 {
     font-size: 150%;
     margin: 3%;
 }
-a, a:visited, a:hover, a:active {
+h6 a, a:visited, a:hover, a:active {
     color: black;
     text-decoration: underline;
   }
@@ -95,7 +95,7 @@ h6 {
         font-size: 130%;
         margin: 3%;
     }
-    a, a:visited, a:hover, a:active {
+    h6 a, a:visited, a:hover, a:active {
         color: black;
         text-decoration: underline;
       }
@@ -189,7 +189,7 @@ h6 {
         margin-right: 0;
         font-weight: bold;
     }
-    a, a:visited, a:hover, a:active {
+    h6 a, a:visited, a:hover, a:active {
         color: black;
         text-decoration: underline;
       }
