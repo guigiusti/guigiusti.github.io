@@ -12,18 +12,10 @@
         <div id="nav-placeholder">
         </div>
         <script src="//code.jquery.com/jquery.min.js"></script>
-        <script>
-        $.get("/guigiusti.github.io/css/nav.html", function(data){
-            $("#nav-placeholder").replaceWith(data);
-        });
-        </script>
         <div id="txt"></div>
         <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
         <script>
-            fetch('/guigiusti.github.io/textosbase/home-index.md')
-              .then(r=>r.blob()).then(b=>b.text()).then(m=>{document.getElementById("txt").innerHTML=marked.parse(m)});
-            
-              window.location.replace("https://portfolio.guilhermegiusti.com/");
+            window.location.replace("https://portfolio.guilhermegiusti.com/");
         </script>
     </body>
 </html>
