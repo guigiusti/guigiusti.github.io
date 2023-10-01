@@ -21,13 +21,14 @@ h4 {
     font-size: 150%;
     margin: 3%;
 }
-.menu_lista a:link { text-decoration: none; color: black;}
+.menu-lista a:link { text-decoration: none; color: black;}
 
-.menu_lista a:visited { text-decoration: none; color: black;}
+.menu-lista a:visited { text-decoration: none; color: black;}
 
-.menu_lista a:hover { text-decoration: none; color: black;}
+.menu-lista a:hover { text-decoration: none; color: black;}
 
-.menu_lista a:active { text-decoration: none; color: gray;}
+.menu-lista a:active { text-decoration: none; color: gray;}
+
 .menu-lista{
     color: black;
     text-decoration: underline;
@@ -99,13 +100,14 @@ h6 {
         font-size: 130%;
         margin: 3%;
     }
-    .menu_lista a:link { text-decoration: none; color: black;}
+    .menu-lista a:link { text-decoration: none; color: black;}
 
-    .menu_lista a:visited { text-decoration: none; color: black;}
+    .menu-lista a:visited { text-decoration: none; color: black;}
 
-    .menu_lista a:hover { text-decoration: none; color: black;}
+    .menu-lista a:hover { text-decoration: none; color: black;}
 
-    .menu_lista a:active { text-decoration: none; color: gray;}
+    .menu-lista a:active { text-decoration: none; color: gray;}
+
     .menu-lista{
         color: black;
         text-decoration: underline;
@@ -197,17 +199,18 @@ h6 {
         margin-right: 0;
         font-weight: bold;
     }
-    .menu_lista a:link { text-decoration: none; color: black;}
+    .menu-lista a:link { text-decoration: none; color: black;}
 
-    .menu_lista a:visited { text-decoration: none; color: black;}
+.menu-lista a:visited { text-decoration: none; color: black;}
 
-    .menu_lista a:hover { text-decoration: none; color: black;}
+.menu-lista a:hover { text-decoration: none; color: black;}
 
-    .menu_lista a:active { text-decoration: none; color: gray;}
-    .menu-lista{
-        color: black;
-        text-decoration: underline;
-    }
+.menu-lista a:active { text-decoration: none; color: gray;}
+
+.menu-lista{
+    color: black;
+    text-decoration: underline;
+}
     p {
         text-indent: 5%;
         font-size: 130%;
