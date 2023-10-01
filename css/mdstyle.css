@@ -21,13 +21,10 @@ h4 {
     font-size: 150%;
     margin: 3%;
 }
-h6 a, a:visited, a:hover, a:active {
+.menu-lista {
     color: black;
     text-decoration: underline;
   }
-em {
-    color: black;
-}
 p {
     text-indent: 5%;
     font-size: 160%;
@@ -95,12 +92,9 @@ h6 {
         font-size: 130%;
         margin: 3%;
     }
-    h6 a, a:visited, a:hover, a:active {
+    .menu-lista {
         color: black;
         text-decoration: underline;
-      }
-      em {
-        color: black;
     }
     p {
         text-indent: 5%;
@@ -189,13 +183,10 @@ h6 {
         margin-right: 0;
         font-weight: bold;
     }
-    h6 a, a:visited, a:hover, a:active {
+    .menu-lista {
         color: black;
         text-decoration: underline;
       }
-    em {
-        color: black;
-    }
     p {
         text-indent: 5%;
         font-size: 130%;
