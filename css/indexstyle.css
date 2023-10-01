@@ -33,10 +33,10 @@
     text-decoration: none;
 }
 
-a:link { text-decoration: none; color: white;}
+.menu_link a:link { text-decoration: none; color: white;}
 
-a:visited { text-decoration: none; color: white;}
+.menu_link a:visited { text-decoration: none; color: white;}
 
-a:hover { text-decoration: none; color: white;}
+.menu_link a:hover { text-decoration: none; color: white;}
 
-a:active { text-decoration: none; color: gray;}
+.menu_link a:active { text-decoration: none; color: gray;}
