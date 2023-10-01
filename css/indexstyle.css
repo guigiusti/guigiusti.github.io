@@ -1,252 +1,42 @@
-@media (min-width: 1025px) {
-#txt {
-    background-color: white;
-    text-align: justify;
-    font-family: 'Courier New', Courier, monospace;
-    margin: 5%;
-    margin-left: 20%;
-    margin-right: 20%;
+#nav-placeholder {
+    color: white;
 }
-h1 {
-    text-align: center;
-    font-size: 230%;
-}
-h2 {
-    font-size: 200%;
-}
-h3 {
-    font-size: 170%;
-}
-h4 {
-    font-size: 150%;
-    margin: 3%;
-}
-.menu-lista a:link { text-decoration: none; color: black;}
-
-.menu-lista a:visited { text-decoration: none; color: black;}
-
-.menu-lista a:hover { text-decoration: none; color: black;}
-
-.menu-lista a:active { text-decoration: none; color: gray;}
-
-.menu-lista{
-    color: black;
-    text-decoration: underline;
-}
-.menu-texto-imagens {
-    margin: 5%;
-    margin-left: 20%;
-    margin-right: 20%;
-}
-p {
-    text-indent: 5%;
-    font-size: 160%;
-}
-h5 {
-    font-size: 100%;
+.header_menu{
+    background-color: black;
+    height: 50%;
+    padding: 1%;
     text-align: center;
 }
-li::marker 
-{
-    font-size: 200%;
-    font-weight: bolder;
+.menu {
+    list-style-type: none;
+    display: inline;
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    flex-wrap: wrap;
 }
-h6 {
-    font-size: 200%;
-    text-align: justify;
-    display: block;
-    font-size: 1.5em;
-    margin-top: 0.83em;
-    margin-bottom: 0.83em;
-    margin-left: 0;
-    margin-right: 0;
-    font-weight: bold;
+
+.menu_button {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    display: inline;
+    text-align: center;
+    font-size: 450%;
+    vertical-align: middle;
+    margin: auto;
+    color: white;
 }
-#cinemateca-perigo {
-    max-width: 80%;
-    max-height: 80%;
+
+.menu_link {
+    color: white;
+    text-decoration: none;
 }
-.center {
-    display: block;
-    max-width: 53%;
-    max-height: 53%;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: hidden
-  }
-  blockquote {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 50px;
-    padding-left: 15px;
-    border-left: 3px solid #ccc;
-  }
-}
-@media (max-width: 1024px) {
-    #txt {
-        background-color: white;
-        text-align: justify;
-        font-family: 'Courier New', Courier, monospace;
-        margin: 5%;
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-    h1 {
-        text-align: center;
-        font-size: 210%;
-    }
-    h2 {
-        font-size: 180%;
-    }
-    h3 {
-        font-size: 150%;
-    }
-    h4 {
-        font-size: 130%;
-        margin: 3%;
-    }
-    .menu-lista a:link { text-decoration: none; color: black;}
 
-    .menu-lista a:visited { text-decoration: none; color: black;}
+.menu_link a:link { text-decoration: none; color: white;}
 
-    .menu-lista a:hover { text-decoration: none; color: black;}
+.menu_link a:visited { text-decoration: none; color: white;}
 
-    .menu-lista a:active { text-decoration: none; color: gray;}
+.menu_link a:hover { text-decoration: none; color: white;}
 
-    .menu-lista{
-        color: black;
-        text-decoration: underline;
-    }
-    .menu-texto-imagens {
-        margin: 5%;
-        margin-left: 20%;
-        margin-right: 20%;
-    }
-    p {
-        text-indent: 5%;
-        font-size: 140%;
-    }
-    h5 {
-        font-size: 100%;
-        text-align: center;
-    }
-    li::marker 
-{
-    font-size: 180%;
-    font-weight: bolder;
-}
-    h6 {
-        font-size: 180%;
-        text-align: justify;
-        display: block;
-        font-size: 1.5em;
-        margin-top: 0.83em;
-        margin-bottom: 0.83em;
-        margin-left: 0;
-        margin-right: 0;
-        font-weight: bold;
-    }
-    .center {
-        display: block;
-        max-width: 63%;
-        max-height: 63%;
-        margin-left: auto;
-        margin-right: auto;
-        overflow: hidden
-      }
-      #cinemateca-perigo {
-        max-width: 80%;
-        max-height: 80%;
-    }
-      blockquote {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        margin-left: 50px;
-        padding-left: 15px;
-        border-left: 3px solid #ccc;
-      }
-    }
-@media (max-width: 768px) {
-    #txt {
-        background-color: white;
-        text-align: justify;
-        font-family: 'Courier New', Courier, monospace;
-        margin: 5%;
-        margin-left: 1%;
-        margin-right: 1%;
-    }
-    h1 {
-        text-align: center;
-        font-size: 180%;
-    }
-    h2 {
-        font-size: 160%;
-    }
-    h3 {
-        font-size: 140%;
-    }
-    h4 {
-        font-size: 110%;
-        margin: 3%;
-    }
-    h5 {
-        font-size: 100%;
-        text-align: center;
-    }
-    li::marker 
-{
-    font-size: 160%;
-    font-weight: bolder;
-}
-    h6 {
-        font-size: 160%;
-        text-align: justify;
-        display: block;
-        font-size: 1.5em;
-        margin-top: 0.83em;
-        margin-bottom: 0.83em;
-        margin-left: 0;
-        margin-right: 0;
-        font-weight: bold;
-    }
-    .menu-lista a:link { text-decoration: none; color: black;}
-
-.menu-lista a:visited { text-decoration: none; color: black;}
-
-.menu-lista a:hover { text-decoration: none; color: black;}
-
-.menu-lista a:active { text-decoration: none; color: gray;}
-
-.menu-lista{
-    color: black;
-    text-decoration: underline;
-}
-.menu-texto-imagens {
-    margin: 5%;
-    margin-left: 20%;
-    margin-right: 20%;
-}
-    p {
-        text-indent: 5%;
-        font-size: 130%;
-    }
-    .center {
-        display: block;
-        max-width: 53%;
-        max-height: 53%;
-        margin-left: auto;
-        margin-right: auto;
-        overflow: hidden
-      }
-      #cinemateca-perigo {
-        max-width: 80%;
-        max-height: 80%;
-    }
-      blockquote {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        margin-left: 50px;
-        padding-left: 15px;
-        border-left: 3px solid #ccc;
-      }
-    }
+.menu_link a:active { text-decoration: none; color: gray;}
