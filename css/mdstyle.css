@@ -33,6 +33,11 @@ h4 {
     color: black;
     text-decoration: underline;
 }
+.menu-texto-imagens {
+    margin: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
 p {
     text-indent: 5%;
     font-size: 160%;
@@ -111,6 +116,11 @@ h6 {
     .menu-lista{
         color: black;
         text-decoration: underline;
+    }
+    .menu-texto-imagens {
+        margin: 5%;
+        margin-left: 20%;
+        margin-right: 20%;
     }
     p {
         text-indent: 5%;
@@ -210,6 +220,11 @@ h6 {
 .menu-lista{
     color: black;
     text-decoration: underline;
+}
+.menu-texto-imagens {
+    margin: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
     p {
         text-indent: 5%;
