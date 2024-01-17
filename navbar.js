@@ -2,7 +2,7 @@ $.get("/guigiusti.github.io/nav.html", function(data){
     $("#nav-placeholder").replaceWith(data);
 });
 function replaceimage (){
-    if (!window.location.pathname == '/dev') {
+    if (!window.location.pathname === '/dev') {
         const img = document.createElement('img');
         img.id = 'menu_img_file';
         img.className = 'img_show'
