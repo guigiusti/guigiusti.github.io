@@ -5,19 +5,13 @@ if (urlParams.get('t')) {
     .then(r=>r.blob()).then(b=>b.text()).then(m=>{document.getElementById("txt").innerHTML=marked.parse(m)});
 }
 function dev_index () {
-    if (urlParams.get('dev')) {
-        fetch('/guigiusti.github.io/dev/jogos/'+ urlParams.get('dev') + '.html')
-        .then(r=>r.blob()).then(b=>b.text()).then(m=>{document.getElementById("txt").innerHTML=marked.parse(m)});
-        if (urlParams.get('dev') == 'index') {
-            if (window.location.pathname != "/") {
-                window.location.pathname = '/'
-            }
-        }
+    if (urlParams.get('d')) {
+        window.location.pathname = '/dev/jogos/'+ urlParams.get('d') + '/index.html'
     }
-    if (!urlParams.get('dev')) {
-        window.location.search = "?dev=index"
+    if (!urlParams.get('d')) {
+        window.location.pathname = '/dev'
 }}
-if (urlParams.get('dev')) {dev_index()
+if (urlParams.get('d')) {dev_index()
 }
 function textos_index (m) {
     window.location.href ="index.html"
