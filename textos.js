@@ -14,7 +14,7 @@ function dev_index () {
 if (urlParams.get('d')) {dev_index()
 }
 function textos_index (m) {
-    window.location.href ="index.html"
+    window.location.pathname = '/'
 }
 
 
