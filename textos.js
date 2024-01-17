@@ -20,7 +20,7 @@ function textos_index (m) {
 
 const queryString2 = window.location.search;
 const urlParams2 = new URLSearchParams(queryString2); 
-if (!urlParams2.get('dev')) {if (!urlParams.get('t')) {fetch('/guigiusti.github.io/textosbase/textos-index.html')
+if (!urlParams2.get('d')) {if (!urlParams.get('t')) {fetch('/guigiusti.github.io/textosbase/textos-index.html')
     .then(r=>r.blob()).then(b=>b.text()).then(m=>{document.getElementById("txt").innerHTML=marked.parse(m)});}}
 const urlContainParams = window.location.search.length === 0;
 if (urlContainParams) {fetch('/guigiusti.github.io/textosbase/textos-index.html')
