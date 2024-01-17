@@ -1,4 +1,4 @@
-$.get("nav.html", function(data){
+$.get("/guigiusti.github.io/nav.html", function(data){
     $("#nav-placeholder").replaceWith(data);
 });
 function replaceimage (){
