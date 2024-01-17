@@ -14,8 +14,7 @@ function dev_index () {
 if (urlParams.get('d')) {dev_index()
 }
 function textos_index (m) {
-    window.location.pathname = '/'
-    window.location.search = null
+    window.location.href = "/guigiusti.github.io/"
 }
 
 
