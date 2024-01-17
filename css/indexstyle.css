@@ -2,10 +2,11 @@
     color: white;
 }
 .header_menu{
-    background-color: black;
+    background-color: white;
     height: 50%;
     padding: 1%;
     text-align: center;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
 }
 .menu {
     list-style-type: none;
@@ -25,18 +26,28 @@
     font-size: 450%;
     vertical-align: middle;
     margin: auto;
-    color: white;
+    color: black;
+    border-bottom: 5px solid;
 }
 
 .menu_link {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
-.menu_link a:link { text-decoration: none; color: white;}
+.menu_link a:link { text-decoration: none; color: black;}
 
-.menu_link a:visited { text-decoration: none; color: white;}
+.menu_link a:visited { text-decoration: none; color: black;}
 
-.menu_link a:hover { text-decoration: none; color: white;}
+.menu_link a:hover { text-decoration: none; color: black;}
 
 .menu_link a:active { text-decoration: none; color: gray;}
+#blockline_menu {
+    background-color: black;
+    }
+#menu_img {
+        position: relative;
+        background-size: cover;
+        overflow: hidden;
+        height: 20em;
+    }

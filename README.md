@@ -1,2 +1,2 @@
 # Este é o repositório do meu site.
-//Em manutenção!//
+A proposta dele é simples porém funcional, design não é meu forte!
