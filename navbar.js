@@ -16,4 +16,4 @@ function replaceimage (){
     }
 
 }
-setTimeout(replaceimage, 50)
+setTimeout(replaceimage, 150)
