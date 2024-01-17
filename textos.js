@@ -6,7 +6,7 @@ if (urlParams.get('t')) {
 }
 function dev_index () {
     if (urlParams.get('dev')) {
-        fetch('/guigiusti.github.io/dev/jogos/'+ urlParams.get('dev') + '/index.html')
+        fetch('/guigiusti.github.io/dev/jogos/'+ urlParams.get('dev') + '/.html')
         .then(r=>r.blob()).then(b=>b.text()).then(m=>{document.getElementById("txt").innerHTML=marked.parse(m)});
         if (urlParams.get('dev') == 'index') {
             if (window.location.pathname != "/") {
