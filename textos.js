@@ -13,11 +13,6 @@ function dev_index () {
 }}
 if (urlParams.get('d')) {dev_index()
 }
-function textos_index (m) {
-    window.location.href = "/guigiusti.github.io/"
-}
-
-
 const queryString2 = window.location.search;
 const urlParams2 = new URLSearchParams(queryString2); 
 if (!urlParams2.get('d')) {if (!urlParams.get('t')) {fetch('/guigiusti.github.io/textosbase/textos-index.html')
