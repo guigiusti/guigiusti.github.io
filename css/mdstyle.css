@@ -123,16 +123,16 @@
         }
         h1 {
             text-align: center;
-            font-size: 210%;
+            font-size: 220%;
         }
         h2 {
-            font-size: 180%;
+            font-size: 190%;
         }
         h3 {
-            font-size: 150%;
+            font-size: 160%;
         }
         h4 {
-            font-size: 130%;
+            font-size: 140%;
             margin: 3%;
         }
         .menu-lista a:link { text-decoration: none; color: black;}
@@ -154,19 +154,19 @@
         }
         p {
             text-indent: 5%;
-            font-size: 140%;
+            font-size: 150%;
         }
         h5 {
-            font-size: 100%;
+            font-size: 110%;
             text-align: center;
         }
         li::marker 
     {
-        font-size: 180%;
+        font-size: 190%;
         font-weight: bolder;
     }
         h6 {
-            font-size: 180%;
+            font-size: 190%;
             text-align: justify;
             display: block;
             font-size: 1.5em;
@@ -222,29 +222,29 @@
         }
         h1 {
             text-align: center;
-            font-size: 180%;
+            font-size: 190%;
         }
         h2 {
-            font-size: 160%;
+            font-size: 170%;
         }
         h3 {
-            font-size: 140%;
+            font-size: 150%;
         }
         h4 {
-            font-size: 110%;
+            font-size: 120%;
             margin: 3%;
         }
         h5 {
-            font-size: 100%;
+            font-size: 110%;
             text-align: center;
         }
         li::marker 
     {
-        font-size: 160%;
+        font-size: 170%;
         font-weight: bolder;
     }
         h6 {
-            font-size: 160%;
+            font-size: 170%;
             text-align: justify;
             display: block;
             font-size: 1.5em;
@@ -273,7 +273,7 @@
     }
         p {
             text-indent: 5%;
-            font-size: 130%;
+            font-size: 140%;
         }
         .center {
             display: block;
