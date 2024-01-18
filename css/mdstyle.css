@@ -47,6 +47,7 @@
     .menu-lista{
         color: black;
         text-decoration: underline;
+        list-style:none;
     }
     .menu-texto-imagens {
         margin: 5%;
@@ -146,6 +147,7 @@
         .menu-lista{
             color: black;
             text-decoration: underline;
+            list-style:none;
         }
         .menu-texto-imagens {
             margin: 5%;
@@ -265,6 +267,7 @@
     .menu-lista{
         color: black;
         text-decoration: underline;
+        list-style:none;
     }
     .menu-texto-imagens {
         margin: 5%;
