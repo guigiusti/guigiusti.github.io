@@ -83,6 +83,7 @@
         max-height: 80%;
     }
     .center {
+        position: relative;
         display: block;
         max-width: 53%;
         max-height: 53%;
@@ -185,6 +186,7 @@
             font-weight: bold;
         }
         .center {
+            position: relative;
             display: block;
             max-width: 63%;
             max-height: 63%;
@@ -291,6 +293,7 @@
             font-size: 140%;
         }
         .center {
+            position: relative;
             display: block;
             max-width: 53%;
             max-height: 53%;
