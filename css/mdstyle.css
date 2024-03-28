@@ -90,7 +90,7 @@
         margin-right: auto;
         overflow: hidden
       }
-    .center figcaption {
+    #cosmos figcaption {
         position: absolute;
         top: 50%;
         bottom: 50%;
@@ -192,7 +192,7 @@
             margin-right: auto;
             overflow: hidden
           }
-          .center figcaption {
+          #cosmos figcaption {
             position: absolute;
             top: 50%;
             bottom: 50%;
@@ -298,7 +298,7 @@
             margin-right: auto;
             overflow: hidden
           }
-          .center figcaption {
+          #cosmos figcaption {
             position: absolute;
             top: 50%;
             bottom: 50%;
