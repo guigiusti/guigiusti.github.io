@@ -90,7 +90,7 @@
         margin-right: auto;
         overflow: hidden
       }
-    .center center-image {
+    .center .center-image {
         position: absolute;
         top: 50%;
         bottom: 50%;
