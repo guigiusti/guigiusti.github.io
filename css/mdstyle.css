@@ -90,6 +90,12 @@
         margin-right: auto;
         overflow: hidden
       }
+    .center center-image {
+        position: absolute;
+        top: 50%;
+        bottom: 50%;
+        left: 40%;
+    }
       blockquote {
         margin-top: 10px;
         margin-bottom: 10px;
