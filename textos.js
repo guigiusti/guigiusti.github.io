@@ -1,6 +1,10 @@
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 if (urlParams.get('t')) {
+    if (urlParams.get('t') == 'portfolio') {
+        fetch('/textosbase/portfolio.html')
+    .then(r=>r.blob()).then(b=>b.text()).then(m=>{document.getElementById("txt").innerHTML=marked.parse(m)})
+    }
     fetch('/guigiusti.github.io/textosbase/'+ urlParams.get('t') + '.md')
     .then(r=>r.blob()).then(b=>b.text()).then(m=>{document.getElementById("txt").innerHTML=marked.parse(m)});
 }
