@@ -1,11 +1,12 @@
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
+const httpsHost = "https://" + window.location.hostname;
 if (urlParams.get('t')) {
     if (urlParams.get('t') == 'portfolio') {
-        fetch('/textosbase/portfolio.html')
+        fetch(httpsHost+'/textosbase/portfolio.html')
     .then(r=>r.blob()).then(b=>b.text()).then(m=>{document.getElementById("txt").innerHTML=marked.parse(m)})
     }
-    fetch('/guigiusti.github.io/textosbase/'+ urlParams.get('t') + '.md')
+    fetch(httpsHost+'/guigiusti.github.io/textosbase/'+ urlParams.get('t') + '.md')
     .then(r=>r.blob()).then(b=>b.text()).then(m=>{document.getElementById("txt").innerHTML=marked.parse(m)});
 }
 function dev_index () {
@@ -19,8 +20,8 @@ if (urlParams.get('d')) {dev_index()
 }
 const queryString2 = window.location.search;
 const urlParams2 = new URLSearchParams(queryString2); 
-if (!urlParams2.get('d')) {if (!urlParams.get('t')) {fetch('/guigiusti.github.io/textosbase/textos-index.html')
+if (!urlParams2.get('d')) {if (!urlParams.get('t')) {fetch('httpsHost+/guigiusti.github.io/textosbase/textos-index.html')
     .then(r=>r.blob()).then(b=>b.text()).then(m=>{document.getElementById("txt").innerHTML=marked.parse(m)});}}
 const urlContainParams = window.location.search.length === 0;
-if (urlContainParams) {fetch('/guigiusti.github.io/textosbase/textos-index.html')
+if (urlContainParams) {fetch(httpsHost+'/guigiusti.github.io/textosbase/textos-index.html')
     .then(r=>r.blob()).then(b=>b.text()).then(m=>{document.getElementById("txt").innerHTML=marked.parse(m)});};
