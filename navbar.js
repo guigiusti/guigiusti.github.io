@@ -2,6 +2,9 @@ const httpsHost = "https://" + window.location.hostname;
 $.get(httpsHost+"/nav.html", function(data){
     $("#nav-placeholder").replaceWith(data);
 });
+$.get(httpsHost+"/footer.html", function(data){
+    $("#footerDiv").replaceWith(data);
+});
 function replaceimage (){
     if (window.location.pathname != '/dev/' && window.location.pathname != '/dev') {
         const img = document.createElement('img');
