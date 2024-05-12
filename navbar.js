@@ -1,5 +1,5 @@
 const httpsHost = "https://" + window.location.hostname;
-$.get(httpsHost+"/guigiusti.github.io/nav.html", function(data){
+$.get(httpsHost+"/nav.html", function(data){
     $("#nav-placeholder").replaceWith(data);
 });
 function replaceimage (){
@@ -7,7 +7,7 @@ function replaceimage (){
         const img = document.createElement('img');
         img.id = 'menu_img_file';
         img.className = 'img_show'
-        img.src = httpsHost+'/guigiusti.github.io/media/background.JPG';
+        img.src = httpsHost+'/media/background.JPG';
         img.style.display = 'block';
         document.querySelector('#blockline_menu').replaceWith(img);
         const imgclasses = document.querySelectorAll('.img_show');
