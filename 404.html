@@ -1,9 +1,22 @@
-<html lang="en">                                                                
-    <head>                                                                      
-        <meta charset="utf-8">
-        <meta name="robots" content="noindex" />
-        <title>Redirecionando</title>
-        <meta http-equiv="refresh" content="0; url=https://guilhermegiusti.com/" />      
-        <link rel="canonical" href="https://guilhermegiusti.com/" />                    
+<!DOCTYPE html>
+<html>
+    <head>
+            <link rel="icon" type="image/png" href="favicon.png"/>
+            <title>Portfólio - Gui Giusti</title>
+            <link href="/css/indexstyle.css" rel="stylesheet">
+            <link href="/css/mdstyle.css" rel="stylesheet">
+            <meta charset="utf-8">
+            <meta name="robots" content="noindex">
     </head>
+    <body>  
+        <script src="https://code.jquery.com/jquery.min.js"></script>
+        <div id="nav-placeholder"></div>
+        <div id="txt"></div>
+        <div id="footerDiv"></div>
+        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+        <script>
+            const path = window.location.pathname;
+            document.getElementById("txt").innerHTML = path.toString()
+        </script>
+    </body>
 </html>
