@@ -16,7 +16,7 @@
         <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
         <script src="navbar.js"></script>
         <script>
-            const path = '/textos' + window.location.pathname;
+            const path = '/textos/base' + window.location.pathname + '.md';
             fetch(path.toString()).then(r=>r.blob()).then(b=>b.text()).then(m=>{document.getElementById("txt").innerHTML=marked.parse(m)})
         </script>
     </body>
