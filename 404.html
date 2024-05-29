@@ -16,11 +16,13 @@
         <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
         <script src="navbar.js"></script>
         <script>
-            try{const path = '/textos/base' + window.location.pathname + '.md';
-            fetch(path.toString()).then(r=>r.blob()).then(b=>b.text()).then(m=>{document.getElementById("txt").innerHTML=marked.parse(m)})}catch (e) { console.log(e);
-                const host = 'https://' + window.location.hostname;
-                fetch(host+'/textos/base/textos-index.html').then(r=>r.blob()).then(b=>b.text()).then(m=>{document.getElementById("txt").innerHTML=marked.parse(m)});
-            };
+                try{
+                    const path = '/textos/base' + window.location.pathname + '.md';
+                    fetch(path.toString()).then(r=>r.blob()).then(b=>b.text()).then(m=>{document.getElementById("txt").innerHTML=marked.parse(m)});
+                } catch (e) {
+                    console.log(e);
+                    fetch('/textos/base/textos-index.html').then(r=>r.blob()).then(b=>b.text()).then(m=>{document.getElementById("txt").innerHTML=marked.parse(m)});
+                };
         </script>
     </body>
 </html>
