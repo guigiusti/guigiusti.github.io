@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <link rel="icon" type="image/png" href="favicon.png"/>
+            <title>Portfólio - Gui Giusti</title>
+            <link href="/css/indexstyle.css" rel="stylesheet">
+            <link href="/css/mdstyle.css" rel="stylesheet">
+            <meta charset="utf-8">
+            <meta name="robots" content="noindex">
+    </head>
+    <body>  
+        <script src="https://code.jquery.com/jquery.min.js"></script>
+        <div id="nav-placeholder"></div>
+        <div id="txt"></div>
+        <div id="footerDiv"></div>
+        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+        <script src="navbar.js"></script>
+        <script>
+            fetch('/textosbase/solberg.md').then(r=>r.blob()).then(b=>b.text()).then(m=>{document.getElementById("txt").innerHTML=marked.parse(m)})
+        </script>
+    </body>
+</html>
