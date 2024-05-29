@@ -15,6 +15,6 @@
         <div id="footerDiv"></div>
         <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
         <script src="navbar.js"></script>
-        <script src="textos.js"></script>
+        <script>fetch('/textos/base/textos-index.html').then(r=>r.blob()).then(b=>b.text()).then(m=>{document.getElementById("txt").innerHTML=marked.parse(m)});</script>
     </body>
 </html>
