@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+:root {
+  --font-family: "JetBrains Mono", monospace;
+}
+
+@layer base {
+  html,
+  body {
+    font-family: var(--font-family) !important;
+    background-color: #121212; /* Dark gray background */
+    color: #e4e4e4; /* Off-white text for better readability */
+  }
+
+  /* Your heading styles */
+  h1 {
+    @apply text-3xl font-bold;
+  }
+  h2 {
+    @apply text-xl font-bold;
+  }
+  h3 {
+    @apply text-lg font-bold;
+  }
+  h4 {
+    @apply text-base font-bold;
+  }
+  h5 {
+    @apply text-sm font-bold;
+  }
+  h6 {
+    @apply text-xs font-bold;
+  }
+}
